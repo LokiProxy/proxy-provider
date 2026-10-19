@@ -55,15 +55,19 @@ After configuration is complete, web requests initiated by the script will be fo
 ## Practical Pitfall-Avoidance Points for Collection Tasks
 
 **Control request rates reasonably**
+
 Do not set extremely high concurrency requests. Set request intervals according to page loading speed, send network requests steadily, and ensure continuous operation of collection tasks.
 
 **Handle exceptions properly**
+
 Add try-except in the code to catch timeouts and connection errors, automatically retry failed requests, and record failed page logs for later supplementary collection.
 
 **Choose matching node regions**
+
 When collecting data from corresponding Amazon sites, choose proxy nodes in the same region to reduce network latency and improve response speed.
 
 **Monitor traffic consumption**
+
 Rotating proxies are billed by traffic. During the development stage, you can conduct small-scale tests, estimate the overall project traffic cost, and plan the budget reasonably.
 
 ## Applicable Scenarios and Boundary Notes
@@ -76,4 +80,5 @@ Please do not initiate high-frequency or large-scale requests to websites, to av
 Reasonably combining Python collection scripts with LokiProxy rotating residential proxies can effectively improve the stability of long-cycle e-commerce public data collection and reduce task interruptions caused by network-level issues. Beginners can first conduct small-scale tests, optimize request parameters, and then gradually expand the collection scale.
 
 LokiProxy offers free trials of rotating residential proxies. New users can use the trial entry to apply to online customer service for trial traffic, run a small batch of tasks on real target sites, and then decide on package specifications after confirming the success rate and traffic consumption.
+
 Trial entry:[LokiProxy](https://www.lokiproxy.com/?utm_t=1&utm_i=52)
