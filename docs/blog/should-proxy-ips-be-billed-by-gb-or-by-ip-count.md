@@ -8,7 +8,7 @@ description: "When choosing proxy IPs, the billing model is often more worth scr
 
 When choosing proxy IPs, the billing model is often more worth scrutinizing than the unit price number. With the same budget, choosing the wrong billing method can multiply your costs. Billing by GB and billing by IP count are not two price tags for the same product, they correspond to completely different resource consumption logic. Only by understanding the underlying differences between the two can you ensure every proxy dollar lands where it is truly needed.
 
-![1](https://i.postimg.cc/zftCspGM/feng-mian-ying.jpg)
+![1](https://i.postimg.cc/KvjRVFMb/feng-mian-ying.jpg)
 
 **Key Takeaways**
 
